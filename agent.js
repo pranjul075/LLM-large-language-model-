@@ -1,6 +1,5 @@
 import { config } from "dotenv";
 config();
-
 import { ChatGoogleGenerativeAI } from "@langchain/google-genai";
 import { SerpAPI } from "@langchain/community/tools/serpapi";
 import { initializeAgentExecutorWithOptions } from "langchain/agents";
